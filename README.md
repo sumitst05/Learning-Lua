@@ -11,9 +11,10 @@ Today, Lua is used in a wide variety of applications, including game development
 ## 🚀 Features of Lua
 
 - Simple syntax
-- Dynamic typing
-- First-class functions
+- Dynamic typing: Lua is dynamically typed, which means that you do not need to declare variable types explicitly
 - Lightweight and fast
+- Embeddable
+- Object-oriented
 - Powerful table data structure
 - Customizable metatables and metamethods
 - Built-in garbage collection
