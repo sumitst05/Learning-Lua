@@ -12,9 +12,8 @@ Today, Lua is used in a wide variety of applications, including game development
 
 - Simple syntax
 - Dynamic typing
+- First-class functions
 - Lightweight and fast
-- Embeddable
-- Object-oriented
 - Powerful table data structure
 - Customizable metatables and metamethods
 - Built-in garbage collection
@@ -24,7 +23,6 @@ Today, Lua is used in a wide variety of applications, including game development
 
 - Lua syntax
 - Input and output
-- Functions
 - Tables
 - Metatables and metamethods
 - Modules
