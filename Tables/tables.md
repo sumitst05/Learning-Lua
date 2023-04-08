@@ -38,10 +38,29 @@ print(myTable["foo"]) -- prints "bar"
 myTable = {"apple", "banana", "orange"}
 print(myTable[2]) -- prints "banana"
 ```
+## Functions in Lua:
+
+- In Lua, a function is a reusable block of code that performs a specific task. 
+
+- You can define a function with the `function` keyword followed by the name of the function and its arguments in parentheses.
+
+- The function body is then enclosed in a block with `end`.
+
+- In Lua, functions are first-class values, which means that they can be assigned to variables, passed as arguments to other functions, and returned as values from functions.
+
+- Functions in Lua can have multiple return values. To return values from a function, use the return keyword followed by the values you want to return separated by commas.
+
+- In Lua, functions can be defined anonymously, meaning that they do not have a name. These are called anonymous functions or lambda functions. Anonymous functions are useful for defining functions inline as arguments to other functions.
+
+- Lua also provides a set of built-in functions, which are functions that are part of the Lua standard library. These include functions for manipulating strings, tables, and mathematical operations, among others.
+
+- In Lua, functions can be loaded dynamically from external files using the dofile, load, and loadfile functions.
+
+- Lua provides several advanced features for functions, such as function environments, function upvalues, and function metamethods. These features allow for advanced techniques such as object-oriented programming, function memoization, and coroutines.
 
 ### Table Iteration
 
-You can iterate over the values in a table using the `pairs()` function, which returns a key-value pair for each element in the table:
+- You can iterate over the values in a table using the `pairs()` function, which returns a key-value pair for each element in the table:
 ```
 myTable = {"apple", "banana", "orange"}
 
