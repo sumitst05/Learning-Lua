@@ -21,14 +21,14 @@ Today, Lua is used in a wide variety of applications, including game development
 
 ## 📚 Topics Covered
 
-- Lua syntax
-- Input and output
-- Tables
-- Metatables and metamethods
-- Modules
-- Debugging and error handling
-- Lua standard library
-- Advanced topics
+- Lua syntax: Data types, variables, operators, control structures, and functions.
+- Input and output: Standard input/output, file input/output, and string manipulation.
+- Tables: Lua's primary data structure and its various functions and methods.
+- Metatables and metamethods: Advanced features of Lua tables for object-oriented programming.
+- Modules: Organizing code into reusable modules for better code organization and modularity.
+- Debugging and error handling: Tools and techniques for debugging Lua code and handling errors.
+- Lua standard library: Built-in functions and modules for common tasks such as string manipulation, math operations, and time and date handling.
+- Advanced topics: Coroutines, closures, garbage collection, and other advanced features of Lua programming.
 
 ## 💻 How to Use
 

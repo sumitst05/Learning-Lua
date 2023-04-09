@@ -7,6 +7,7 @@ local result = add(3, 4)  -- local function call
 print(result) -- Output: 7
 
 
+
 -- Global function to swap values of two variables 
 function Swap(a, b)   -- global functions should have uppercase intitial letter
 	return b, a
