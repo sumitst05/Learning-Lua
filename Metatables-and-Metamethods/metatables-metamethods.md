@@ -18,8 +18,14 @@
 
 - There are several metamethods in Lua, each corresponding to a different operation. Here are some of the most commonly used metamethods:
 
-    - `__index` : This metamethod is called when Lua tries to access a key in a table that is not present in the table. You can use this metamethod to define default values for keys or to redirect access to other tables.
-    - `__newindex` : This metamethod is called when Lua tries to set a value for a key in a table that is not present in the table. You can use this metamethod to enforce certain restrictions on table modifications or to redirect assignments to other tables.
-    - `__add`, `__sub`, `__mul`, `__div`, `__mod`, `__pow`, `__unm` : These metamethods are called when Lua performs arithmetic operations on a table or userdata. You can use these metamethods to define custom arithmetic operations or to overload the default arithmetic operations.
-    - `__eq`, `__lt`, `__le` : These metamethods are called when Lua compares two tables or userdata using the ==, <, or <= operators. You can use these metamethods to define custom comparison operations or to overload the default comparison operations.
-
+    - ##### Table access Metamethods:
+        - `__index` This metamethod is called when Lua tries to access a key in a table that is not present in the table. You can use this metamethod to define default values for keys or to redirect access to other tables.
+        - `__newindex` : This metamethod is called when Lua tries to set a value for a key in a table that is not present in the table. You can use this metamethod to enforce certain restrictions on table modifications or to redirect assignments to other tables.
+    - ##### Arithmetic Metamethods: 
+    `__add`, `__sub`, `__mul`, `__div`, `__mod`, `__pow`, `__unm` These metamethods are called when Lua performs arithmetic operations on a table or userdata. You can use these metamethods to define custom arithmetic operations or to overload the default arithmetic operations.
+    - ##### Comparison Metamethods: 
+    `__eq`, `__lt`, `__le`, `__gt`, `__ge` These metamethods are called when Lua compares two tables or userdata using the ==, <, <=, >, >= operators. You can use these metamethods to define custom comparison operations or to overload the default comparison operations.
+    - ##### Length Metamethod:
+    The `__len` metamethod is used to define the behavior of the `#` operator when applied to a table. This metamethod takes no arguments and should return a single value, the length of the table.
+    - ##### Concatenation Metamethod:
+    The `__concat` metamethod is used to define the behavior of the `..` operator when applied to two values. This metamethod takes two arguments, the two values being concatenated, and should return a single value, the result of the concatenation.
